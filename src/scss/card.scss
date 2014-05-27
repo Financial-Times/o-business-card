@@ -1,0 +1,58 @@
+@import 'o-fonts/main';
+@import 'o-colors/main';
+
+@include oFontsInclude(BentonSans, Normal);
+@include oFontsInclude(BentonSans, Bold);
+
+.o-business-card {
+	font-family: oFontsGetFontFamilyWithFallbacks(BentonSans);
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+	border-bottom: 1px solid oColorsGetColorFor(heading-medium, border);;
+	background-color: oColorsGetColorFor(panel-body box page, background);
+	margin: 0;
+	padding: 5px 0;
+    display: block;
+    overflow: hidden;
+
+    a {
+	    text-decoration: none;
+	    color: oColorsGetColorFor(link, text);
+
+	    &:hover {
+	        color: oColorsGetColorFor(link-hover, text);
+	    }
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.o-business-card__name {
+	font-size: 13px;
+}
+
+.o-business-card__image {
+	width: 60px;
+	height: 60px;
+}
+
+.o-business-card__image--right {
+	@extend .o-business-card__image;
+	float: right;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.o-business-card__image--left {
+	@extend .o-business-card__image;
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.o-business-card__subtitle {
+	font-weight: bold;
+}

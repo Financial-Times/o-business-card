@@ -1,0 +1,27 @@
+{
+    "description": "Business card module",
+    "orgamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://github.com/Financial-Times/o-business-card/issues",
+    "supportStatus": "not implemented",
+    "ci": {
+        "travis": "https://api.travis-ci.org/repos/Financial-Times/o-business-card/builds.json"
+    },
+    "demos": [
+        {
+            "path": "/demos/bussiness-card1.html",
+            "expanded": true,
+            "description": ""
+        },
+        {
+            "path": "/demos/bussiness-card2.html",
+            "expanded": true,
+            "description": ""
+        },
+        {
+            "path": "/demos/bussiness-card3.html",
+            "expanded": true,
+            "description": ""
+        }
+    ]
+}

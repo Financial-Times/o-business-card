@@ -1,0 +1,13 @@
+{
+  "name": "o-business-card",
+  "main": [
+    "main.scss"
+  ],
+  "ignore": [
+    ".gitignore"
+  ],
+  "dependencies": {
+    "o-fonts": "~1.3.0",
+    "o-colors": "~2.3.11"
+  }
+}
