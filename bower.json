@@ -4,7 +4,8 @@
     "main.scss"
   ],
   "ignore": [
-    ".gitignore"
+    ".gitignore",
+    ".travis.yml"
   ],
   "dependencies": {
     "o-fonts": "~1.3.0",

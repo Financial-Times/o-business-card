@@ -1,4 +1,4 @@
-# o-business-card [![Build Status](https://travis-ci.org/Financial-Times/o-bussiness-card.png?branch=master)](https://travis-ci.org/Financial-Times/o-bussiness-card)
+# o-business-card [![Build Status](https://travis-ci.org/Financial-Times/o-business-card.svg?branch=master)](https://travis-ci.org/Financial-Times/o-business-card)
 ===============
 
 Render contact information about a FT employee (Eg, name, email, twitter handle...).
