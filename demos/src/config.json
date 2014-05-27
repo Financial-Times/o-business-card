@@ -1,0 +1,21 @@
+{
+    "options": {
+    	"sass": "demos/src/demo.scss",
+    	"template": "demos/src/demo-img-right.mustache"
+    },
+    "demos": [
+        {
+            "name": "bussiness-card1",
+            "template": "demos/src/demo-img-left.mustache",
+            "data": "demos/src/data1.json"
+        },
+        {
+            "name": "bussiness-card2",
+            "data": "demos/src/data2.json"
+        },
+        {
+            "name": "bussiness-card3",
+            "data": "demos/src/data3.json"
+        }
+    ]
+}
