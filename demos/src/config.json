@@ -5,16 +5,16 @@
     },
     "demos": [
         {
-            "name": "business-card1",
+            "name": "bio-card",
             "template": "demos/src/demo-img-left.mustache",
             "data": "demos/src/data1.json"
         },
         {
-            "name": "business-card2",
+            "name": "links-card",
             "data": "demos/src/data2.json"
         },
         {
-            "name": "business-card3",
+            "name": "full-card",
             "data": "demos/src/data3.json"
         }
     ]

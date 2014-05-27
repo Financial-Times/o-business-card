@@ -2,9 +2,21 @@
 
 Render contact information about a FT employee (Eg, name, email, twitter handle...).
 
-MUST
+To render a business card, you just need to pass a JSON to the template with that person's details. Here's a list of possible values:
 
-- Use some form of [structured data](https://support.google.com/webmasters/answer/146646) - RDFa?
+- name
+- image
+- url
+- bio
+- email
+- twitter
+- age
+- nationality
+- background
+
+At least values for "name", "image" and "url" need to be passed, and the last two should be absolute URLs. The other values are optional and those elements will only be displayed if the templated receives those values.
+
+The image can either be floated left or right depending on the modifier of class selector: "--left" or "--right". 
 
 ## Markup
 
@@ -23,4 +35,6 @@ MUST
 </div>
 ```
 
+TO DO
 
+- Use some form of [structured data](https://support.google.com/webmasters/answer/146646) - RDFa?

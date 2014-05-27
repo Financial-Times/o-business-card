@@ -1,7 +1,9 @@
 {
 	"name": "Lorem Ipsum",
     "url": "http://www.ft.com",
-    "image": "http://pixabay.com/static/uploads/photo/2013/08/10/22/36/cat-171370_640.jpg",
+    "image": "img/demo.gif",
+    "email": "lorem.ipsum@ft.com",
+    "twitter": "LoremIpsum",
     "background": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at ipsum eget est aliquam fringilla eu ut risus. Morbi justo sem, dapibus at lectus in, tristique facilisis enim. Vestibulum venenatis elit eu mi tristique, sit amet sodales nunc porta. Mauris sagittis at dolor non pulvinar. Proin aliquet felis libero, sagittis posuere odio venenatis vel. Cras id ornare mauris, ac hendrerit eros. Maecenas interdum aliquam felis vitae fringilla.",
     "age": "16",
     "nationality": "Spanish"

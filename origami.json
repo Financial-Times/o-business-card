@@ -9,17 +9,17 @@
     },
     "demos": [
         {
-            "path": "/demos/business-card1.html",
+            "path": "/demos/bio-card.html",
             "expanded": true,
             "description": ""
         },
         {
-            "path": "/demos/business-card2.html",
+            "path": "/demos/links-card.html",
             "expanded": true,
             "description": ""
         },
         {
-            "path": "/demos/business-card3.html",
+            "path": "/demos/full-card.html",
             "expanded": true,
             "description": ""
         }
