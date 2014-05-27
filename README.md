@@ -5,6 +5,7 @@ Render contact information about a FT employee (Eg, name, email, twitter handle.
 MUST
 
 - Use some form of [structured data](https://support.google.com/webmasters/answer/146646) - RDFa?
+
 ## Markup
 
 ```html
