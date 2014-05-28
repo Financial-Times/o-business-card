@@ -1,21 +1,21 @@
 {
-    "options": {
-    	"sass": "demos/src/demo.scss",
-    	"template": "demos/src/demo-img-right.mustache"
-    },
-    "demos": [
-        {
-            "name": "bio-card",
-            "template": "demos/src/demo-img-left.mustache",
-            "data": "demos/src/data1.json"
-        },
-        {
-            "name": "links-card",
-            "data": "demos/src/data2.json"
-        },
-        {
-            "name": "full-card",
-            "data": "demos/src/data3.json"
-        }
-    ]
+	"options": {
+		"sass": "main.scss",
+		"template": "demos/src/demo-img-right.mustache"
+	},
+	"demos": [
+		{
+			"name": "bio-card",
+			"template": "demos/src/demo-img-left.mustache",
+			"data": "demos/src/data1.json"
+		},
+		{
+			"name": "links-card",
+			"data": "demos/src/data2.json"
+		},
+		{
+			"name": "full-card",
+			"data": "demos/src/data3.json"
+		}
+	]
 }

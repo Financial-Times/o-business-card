@@ -1,27 +1,27 @@
 {
-    "description": "Business card module",
-    "orgamiType": "module",
-    "origamiVersion": 1,
-    "support": "https://github.com/Financial-Times/o-business-card/issues",
-    "supportStatus": "not implemented",
-    "ci": {
-        "travis": "https://api.travis-ci.org/repos/Financial-Times/o-business-card/builds.json"
-    },
-    "demos": [
-        {
-            "path": "/demos/bio-card.html",
-            "expanded": true,
-            "description": ""
-        },
-        {
-            "path": "/demos/links-card.html",
-            "expanded": true,
-            "description": ""
-        },
-        {
-            "path": "/demos/full-card.html",
-            "expanded": true,
-            "description": ""
-        }
-    ]
+	"description": "Render contact information about a FT employee",
+	"orgamiType": "module",
+	"origamiVersion": 1,
+	"support": "https://github.com/Financial-Times/o-business-card/issues",
+	"supportStatus": "not implemented",
+	"ci": {
+		"travis": "https://api.travis-ci.org/repos/Financial-Times/o-business-card/builds.json"
+	},
+	"demos": [
+		{   
+			"path": "/demos/full-card.html",
+			"expanded": true,
+			"description": ""
+		},
+		{
+			"path": "/demos/bio-card.html",
+			"expanded": false,
+			"description": ""
+		},
+		{
+			"path": "/demos/links-card.html",
+			"expanded": false,
+			"description": ""
+		}
+	]
 }

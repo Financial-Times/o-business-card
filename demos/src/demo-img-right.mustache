@@ -1,36 +1,36 @@
-<div data-o-component="o-business-card" data-o-version="0.2.0" class="o-business-card" itemscope itemtype="http://schema.org/Person">
-    <img src="{{image}}" class="o-business-card__image--right" itemprop="image" />
-    <p>
-        <a href="{{url}}" class="o-business-card__name" itemprop="url"><span itemprop="name">{{name}}</span></a>
-        {{#bio}}
-        <span class="o-business-card__bio" itemprop="description">{{bio}}</span>
-        {{/bio}}
-    </p>
-    {{#email}}
-    <p>
-        <a href="mailto:{{email}}" class="o-business-card__email" itemprop="email">{{email}}</a>
-    </p>
-    {{/email}}
-    {{#twitter}}
-    <p>
-        <a href="https://twitter.com/{{twitter}}" class="o-business-card__twitter" itemprop="sameAs">@{{twitter}}</a>
-    </p>
-    {{/twitter}}
-    {{#age}}
-    <p class="o-business-card__age">
-        <span class="o-business-card__subtitle">Age: </span>{{age}}
-    </p>
-    {{/age}}
-    {{#nationality}}
-    <p class="o-business-card__nationality">
-        <span class="o-business-card__subtitle">Nationality: </span>
-        <span itemprop="nationality"> {{nationality}}</span>
-    </p>
-    {{/nationality}}
-    {{#background}}
-    <p class="o-business-card__background">
-        <span class="o-business-card__subtitle">Background: </span>
-        <span itemprop="description">{{background}}</span>
-    </p>
-    {{/background}}
+<div data-o-component="o-business-card" data-o-version="{{o-business-card.module-version}}" class="o-business-card" itemscope itemtype="http://schema.org/Person">
+	<img src="{{o-business-card.image}}" class="o-business-card__image--right" itemprop="image" />
+	<p>
+		<a href="{{o-business-card.url}}" class="o-business-card__name" itemprop="url"><span itemprop="name">{{o-business-card.name}}</span></a>
+		{{#o-business-card.bio}}
+		<span class="o-business-card__bio" itemprop="description">{{o-business-card.bio}}</span>
+		{{/o-business-card.bio}}
+	</p>
+	{{#o-business-card.email}}
+	<p>
+		<a href="mailto:{{o-business-card.email}}" class="o-business-card__email" itemprop="email">{{o-business-card.email}}</a>
+	</p>
+	{{/o-business-card.email}}
+	{{#o-business-card.twitter}}
+	<p>
+		<a href="//twitter.com/{{o-business-card.twitter}}" class="o-business-card__twitter" itemprop="sameAs">@{{o-business-card.twitter}}</a>
+	</p>
+	{{/o-business-card.twitter}}
+	{{#o-business-card.age}}
+	<p class="o-business-card__age">
+		<span class="o-business-card__subtitle">Age: </span>{{o-business-card.age}}
+	</p>
+	{{/o-business-card.age}}
+	{{#o-business-card.nationality}}
+	<p class="o-business-card__nationality">
+		<span class="o-business-card__subtitle">Nationality: </span>
+		<span itemprop="nationality"> {{o-business-card.nationality}}</span>
+	</p>
+	{{/o-business-card.nationality}}
+	{{#o-business-card.background}}
+	<p class="o-business-card__background">
+		<span class="o-business-card__subtitle">Background: </span>
+		<span itemprop="description">{{o-business-card.background}}</span>
+	</p>
+	{{/o-business-card.background}}
 </div>
