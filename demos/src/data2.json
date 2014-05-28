@@ -1,7 +1,9 @@
 {
-	"name": "Lorem Ipsum",
-    "url": "http://www.ft.com",
-    "image": "img/demo.gif",
-    "email": "lorem.ipsum@ft.com",
-    "twitter": "LoremIpsum"
+	"o-business-card": {
+		"name": "Lucy Kellaway",
+		"url": "http://www.ft.com/comment/lucy-kellaway",
+		"image": "http://image.webservices.ft.com/v1/images/raw/fthead:lucy-kellaway?source=docs&format=png&width=60",
+		"email": "lucy.kellaway@ft.com",
+		"twitter": "LucyKellaway"
+	}
 }

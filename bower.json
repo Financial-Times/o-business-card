@@ -1,14 +1,14 @@
 {
-  "name": "o-business-card",
-  "main": [
-    "main.scss"
-  ],
-  "ignore": [
-    ".gitignore",
-    ".travis.yml"
-  ],
-  "dependencies": {
-    "o-fonts": "~1.3.0",
-    "o-colors": "~2.3.11"
-  }
+	"name": "o-business-card",
+	"main": [
+		"main.scss"
+	],
+	"ignore": [
+		".gitignore",
+		".travis.yml"
+	],
+	"dependencies": {
+		"o-fonts": "^1.3.0",
+		"o-colors": "^2.3.11"
+	}
 }

@@ -1,10 +1,12 @@
 {
-	"name": "Lorem Ipsum",
-    "url": "http://www.ft.com",
-    "image": "img/demo.gif",
-    "email": "lorem.ipsum@ft.com",
-    "twitter": "LoremIpsum",
-    "background": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at ipsum eget est aliquam fringilla eu ut risus. Morbi justo sem, dapibus at lectus in, tristique facilisis enim. Vestibulum venenatis elit eu mi tristique, sit amet sodales nunc porta. Mauris sagittis at dolor non pulvinar. Proin aliquet felis libero, sagittis posuere odio venenatis vel. Cras id ornare mauris, ac hendrerit eros. Maecenas interdum aliquam felis vitae fringilla.",
-    "age": "16",
-    "nationality": "Spanish"
+	"o-business-card": {
+		"name": "Lucy Kellaway",
+		"url": "http://www.ft.com/comment/lucy-kellaway",
+		"image": "http://image.webservices.ft.com/v1/images/raw/fthead:lucy-kellaway?source=docs&format=png&width=60",
+		"email": "lucy.kellaway@ft.com",
+		"twitter": "LucyKellaway",
+		"background": "Lucy Kellaway is an Associate Editor and management columnist of the FT. For the past 15 years her weekly Monday column has poked fun at management fads and jargon and celebrated the ups and downs of office life.",
+		"age": "54",
+		"nationality": "British"
+	}
 }
