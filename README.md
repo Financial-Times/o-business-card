@@ -35,7 +35,7 @@ Each o-business-card component will be an itemscope that gets it's itemtype from
 ## Markup
 
 ```html
-<div data-o-component="o-business-card" data-o-version="0.1.2" class="o-business-card" itemscope itemtype="http://schema.org/Person">
+<div data-o-component="o-business-card" data-o-version="0.2.0" class="o-business-card" itemscope itemtype="http://schema.org/Person">
     <img src="{{image}}" class="o-business-card__image--right" itemprop="image" />
     <p>
         <a href="{{url}}" class="o-business-card__name" itemprop="url"><span itemprop="name">{{name}}</span></a>
