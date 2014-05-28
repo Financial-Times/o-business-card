@@ -12,13 +12,13 @@
 <body class="">
     <script>(function(d) {var b = d.getElementsByTagName('body')[0];b.className = b.className + ' demo-js';})(document);</script>
     
-    <div data-o-component="o-business-card" data-o-version="0.1.1" class="o-business-card">
-        <img src="img&#x2F;demo.gif" class="o-business-card__image--left" />
-        <p>
-            <a href="http:&#x2F;&#x2F;www.ft.com" class="o-business-card__name">Lorem Ipsum</a>
-        	<span class="o-business-card__bio">dolor sit amet, consectetur adipiscing elit. Morbi at ipsum eget est aliquam fringilla eu ut risus. Morbi justo sem, dapibus at lectus in, tristique facilisis enim. Vestibulum venenatis elit eu mi tristique, sit amet sodales nunc porta. Mauris sagittis at dolor non pulvinar. Proin aliquet felis libero, sagittis posuere odio venenatis vel. Cras id ornare mauris, ac hendrerit eros. Maecenas interdum aliquam felis vitae fringilla.</span>
-    	</p>
-    </div>
+    <div data-o-component="o-business-card" data-o-version="0.1.1" class="o-business-card" itemscope itemtype="http://schema.org/Person">
+    <img src="img&#x2F;demo.gif" class="o-business-card__image--left" itemprop="image" />
+    <p>
+        <a href="http:&#x2F;&#x2F;www.ft.com" class="o-business-card__name" itemprop="url"><span itemprop="name">Lorem Ipsum</span></a>
+        <span class="o-business-card__bio" itemprop="description">dolor sit amet, consectetur adipiscing elit. Morbi at ipsum eget est aliquam fringilla eu ut risus. Morbi justo sem, dapibus at lectus in, tristique facilisis enim. Vestibulum venenatis elit eu mi tristique, sit amet sodales nunc porta. Mauris sagittis at dolor non pulvinar. Proin aliquet felis libero, sagittis posuere odio venenatis vel. Cras id ornare mauris, ac hendrerit eros. Maecenas interdum aliquam felis vitae fringilla.</span>
+    </p>
+</div>
     
     <script src='http://registry.origami.ft.com/embedapi?autoload=resize'></script>
 </body>
