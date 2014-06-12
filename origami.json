@@ -1,6 +1,6 @@
 {
 	"description": "Render contact information about a FT employee",
-	"orgamiType": "module",
+	"origamiType": "module",
 	"origamiVersion": 1,
 	"support": "https://github.com/Financial-Times/o-business-card/issues",
 	"supportStatus": "not implemented",
