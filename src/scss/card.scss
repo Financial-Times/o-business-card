@@ -27,6 +27,14 @@
 
 	p {
 		margin: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		display: block;
+	}
+
+	[itemprop="description"] {
+		white-space: normal;
 	}
 }
 

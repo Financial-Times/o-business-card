@@ -1,6 +1,6 @@
 {
 	"options": {
-		"sass": "main.scss",
+		"sass": "demos/src/demo.scss",
 		"template": "demos/src/demo-img-right.mustache"
 	},
 	"demos": [
