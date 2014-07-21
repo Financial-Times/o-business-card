@@ -1,1 +1,28 @@
+@import "src/scss/_variables";
 @import "src/scss/card";
+
+@mixin oBusinessCardIncludeAll($classname: o-business-card) {
+	.#{$classname} {
+		@extend %o-business-card;
+	}
+
+	.#{$classname}__name {
+		@extend %o-business-card__name;
+	}
+
+	.#{$classname}__image--right {
+		@extend %o-business-card__image--right;
+	}
+
+	.#{$classname}__image--left {
+		@extend %o-business-card__image--left;
+	}
+
+	.#{$classname}__subtitle {
+		@extend %o-business-card__subtitle;
+	}
+}
+
+@if (not $o-hiearchical-nav-is-silent) {
+	@include oBusinessCardIncludebAll();
+}
