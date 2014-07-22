@@ -10,6 +10,10 @@
 		@extend %o-business-card__name;
 	}
 
+	.#{$classname}__subtitle {
+		@extend %o-business-card__subtitle;
+	}
+
 	.#{$classname}__image--right {
 		@extend %o-business-card__image--right;
 	}
@@ -17,12 +21,8 @@
 	.#{$classname}__image--left {
 		@extend %o-business-card__image--left;
 	}
-
-	.#{$classname}__subtitle {
-		@extend %o-business-card__subtitle;
-	}
 }
 
-@if (not $o-hiearchical-nav-is-silent) {
-	@include oBusinessCardIncludebAll();
+@if (not $o-business-card-is-silent) {
+	@include oBusinessCardIncludeAll();
 }
