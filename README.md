@@ -32,6 +32,20 @@ Each o-business-card component will be an itemscope that gets its itemtype from 
 - sameAs (it tells search engines that this URL also references this person)
 - nationality
 
+## Silent Mode
+
+By default the SASS is in silent mode, meaning there will be no CSS output.
+
+If you're `@import`ing the SASS into your product or component, and you want to turn off silent mode, then set the following SASS variable:
+
+```sass
+$o-business-card-is-silent: false;
+```
+
+If requesting the CSS from the build service, silent mode will automatically be switched off.
+
+In silent mode, instead of the CSS classes listed below, there will be SASS placeholders using the same name: e.g. `%o-business-card` instead of an `.o-business-card` selector. These placeholders can then be `@extend`ed into selectors of your choice.
+
 ## Markup
 
 Please see [main.mustache](https://github.com/Financial-Times/o-business-card/blob/master/main.mustache).
