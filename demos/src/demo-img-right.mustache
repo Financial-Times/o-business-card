@@ -1,7 +1,7 @@
 <div data-o-component="o-business-card" data-o-version="{{o-business-card.module-version}}" class="o-business-card" itemscope itemtype="http://schema.org/Person">
 	<img src="{{o-business-card.image}}" class="o-business-card__image--right" itemprop="image" />
 	<p>
-		<a href="{{o-business-card.url}}" class="o-business-card__name" itemprop="url"><span itemprop="name">{{o-business-card.name}}</span></a>
+		<a href="{{o-business-card.url}}" alt="{{o-business-card.name}}" class="o-business-card__name" itemprop="url"><span itemprop="name">{{o-business-card.name}}</span></a>
 		{{#o-business-card.bio}}
 		<span class="o-business-card__bio" itemprop="description">{{o-business-card.bio}}</span>
 		{{/o-business-card.bio}}
