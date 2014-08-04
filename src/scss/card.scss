@@ -1,8 +1,4 @@
-@import 'o-fonts/main';
 @import 'o-colors/main';
-
-@include oFontsInclude(BentonSans, Normal);
-@include oFontsInclude(BentonSans, Bold);
 
 %o-business-card {
 	font-family: oFontsGetFontFamilyWithFallbacks(BentonSans);
