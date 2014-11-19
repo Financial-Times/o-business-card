@@ -3,7 +3,7 @@
 	"origamiType": "module",
 	"origamiVersion": 1,
 	"support": "https://github.com/Financial-Times/o-business-card/issues",
-	"supportStatus": "not implemented",
+	"supportStatus": "experimental",
 	"ci": {
 		"travis": "https://api.travis-ci.org/repos/Financial-Times/o-business-card/builds.json"
 	},
