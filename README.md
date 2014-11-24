@@ -44,7 +44,7 @@ $o-business-card-is-silent: false;
 
 If requesting the CSS from the build service, silent mode will automatically be switched off.
 
-In silent mode, instead of the CSS classes listed below, there will be SASS placeholders using the same name: e.g. `%o-business-card` instead of an `.o-business-card` selector. These placeholders can then be `@extend`ed into selectors of your choice.
+In silent mode, instead of the CSS classes listed below, there will be SASS mixins using a camel-cased version of the class name, ie `@include oBusinessCard` instead of a `.o-business-card` selector.
 
 ## Markup
 
