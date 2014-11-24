@@ -1,14 +1,6 @@
-/**
- * @group o-business-card
- * @link http://registry.origami.ft.com/components/o-business-card
-**/
-
 @import 'o-colors/main';
 
-/**
- * Style element like a business card
- */
-@mixin oBusinessCard {
+%o-business-card {
 	font-family: oFontsGetFontFamilyWithFallbacks(BentonSans);
 	font-size: 13px;
 	font-weight: normal;
@@ -42,44 +34,29 @@
 	}
 }
 
-/**
- * For names on business cards
- */
-@mixin oBusinessCardName {
+%o-business-card__name {
 	font-size: 14px;
 }
 
-/**
- * Style up images on business cards
- */
-@mixin oBusinessCardImage {
+%_o-business-card__image {
 	width: 60px;
 	height: 60px;
 }
 
-/**
- * right-aligned business card image
- */
-@mixin oBusinessCardImageRight {
-	@include oBusinessCardImage;
+%o-business-card__image--right {
+	@extend %_o-business-card__image;
 	float: right;
 	margin-right: 10px;
 	margin-left: 5px;
 }
 
-/**
- * Left-aligned business-card image
- */
-@mixin oBusinessCardImageLeft {
-	@include oBusinessCardImage;
+%o-business-card__image--left {
+	@extend %_o-business-card__image;
 	float: left;
 	margin-left: 10px;
 	margin-right: 5px;
 }
 
-/**
- * Use this for business card subtitles
- */
-@mixin oBusinessCardSubtitle {
+%o-business-card__subtitle {
 	font-weight: bold;
 }
