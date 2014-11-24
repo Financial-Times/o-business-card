@@ -1,6 +1,7 @@
 @import 'o-fonts/main';
 @import "src/scss/variables";
 @import "src/scss/card";
+@import "src/scss/deprecated/card";
 
 @mixin oBusinessCardIncludeAll($classname: o-business-card) {
 	.#{$classname} {
