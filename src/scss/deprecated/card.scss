@@ -1,0 +1,25 @@
+@import 'o-colors/main';
+
+%o-business-card {
+	@include oBusinessCard;
+}
+
+%o-business-card__name {
+	@include oBusinessCardName;
+}
+
+%_o-business-card__image {
+	@include oBusinessCardImage;
+}
+
+%o-business-card__image--right {
+	@include oBusinessCardImageRight;
+}
+
+%o-business-card__image--left {
+	@include oBusinessCardImageLeft;
+}
+
+%o-business-card__subtitle {
+	@include oBusinessCardSubtitle;
+}
