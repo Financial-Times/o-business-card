@@ -1,8 +1,24 @@
-@import 'o-fonts/main';
-@import "src/scss/variables";
-@import "src/scss/card";
-@import "src/scss/deprecated/card";
+////
+/// @group o-business-card
+/// @link http://registry.origami.ft.com/components/o-business-card
+////
 
+@import 'o-fonts/main';
+@import 'src/scss/variables';
+@import 'src/scss/card';
+@import 'src/scss/deprecated/card';
+
+/// Generate business cards classnames
+///
+/// @param {String} $classname (o-business-card)
+///
+/// @requires {Mixin} oBusinessCard
+/// @requires {Mixin} oBusinessCardName
+/// @requires {Mixin} oBusinessCardSubtitle
+/// @requires {Mixin} oBusinessCardImageRight
+/// @requires {Mixin} oBusinessCardImageLeft
+/// @requires {Mixin} oBusinessCardIncludeAll
+/// @requires {Mixin} oFontsInclude
 @mixin oBusinessCardIncludeAll($classname: o-business-card) {
 	.#{$classname} {
 		@include oBusinessCard;
