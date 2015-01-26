@@ -6,3 +6,5 @@
 /// Silent mode
 /// @type Bool
 $o-business-card-is-silent: true !default;
+
+@include oColorsSetUseCase(o-business-card, border, pink-tint2);
