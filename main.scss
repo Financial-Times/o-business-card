@@ -1,7 +1,16 @@
+////
+/// @group o-business-card
+/// @link http://registry.origami.ft.com/components/o-business-card
+////
+
+@import "o-colors/main";
 @import "src/scss/variables";
 @import "src/scss/card";
 @import "src/scss/deprecated/card";
 
+/// Output business card helper classes
+///
+/// @param {String} $classname [o-business-card]
 @mixin oBusinessCardIncludeAll($classname: o-business-card) {
 	.#{$classname} {
 		@include oBusinessCard;

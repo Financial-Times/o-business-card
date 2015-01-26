@@ -1,19 +1,15 @@
-/**
- * @group o-business-card
- * @link http://registry.origami.ft.com/components/o-business-card
-**/
+////
+/// @group o-business-card
+/// @link http://registry.origami.ft.com/components/o-business-card
+////
 
-@import 'o-colors/main';
-
-/**
- * Style element like a business card
- */
+/// Style element like a business card
 @mixin oBusinessCard {
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 18px;
-	border-bottom: 1px solid oColorsGetColorFor(heading-medium, border);
-	background-color: oColorsGetColorFor(panel-body box page, background);
+	border-bottom: 1px solid oColorsGetColorFor(o-business-card o-ft-typography-heading-medium, border);
+	background-color: oColorsGetColorFor(o-business-card box page, background);
 	margin-top: 10px;
 	margin-bottom: 20px;
 	display: block;
@@ -23,6 +19,7 @@
 		text-decoration: none;
 		color: oColorsGetColorFor(link, text);
 
+		&:focus,
 		&:hover {
 			color: oColorsGetColorFor(link-hover, text);
 		}
@@ -41,24 +38,18 @@
 	}
 }
 
-/**
- * For names on business cards
- */
+/// For names on business cards
 @mixin oBusinessCardName {
 	font-size: 14px;
 }
 
-/**
- * Style up images on business cards
- */
+/// Style up images on business cards
 @mixin oBusinessCardImage {
 	width: 60px;
 	height: 60px;
 }
 
-/**
- * right-aligned business card image
- */
+/// Right-aligned business card image
 @mixin oBusinessCardImageRight {
 	@include oBusinessCardImage;
 	float: right;
@@ -66,9 +57,7 @@
 	margin-left: 5px;
 }
 
-/**
- * Left-aligned business-card image
- */
+/// Left-aligned business-card image
 @mixin oBusinessCardImageLeft {
 	@include oBusinessCardImage;
 	float: left;
@@ -76,9 +65,7 @@
 	margin-right: 5px;
 }
 
-/**
- * Use this for business card subtitles
- */
+/// Use this for business card subtitles
 @mixin oBusinessCardSubtitle {
 	font-weight: bold;
 }
