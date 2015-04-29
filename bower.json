@@ -9,6 +9,6 @@
 	],
 	"dependencies": {
 		"o-fonts": "^1.3.0",
-		"o-colors": "^2.3.11"
+		"o-colors": ">2.3.11 <4"
 	}
 }
