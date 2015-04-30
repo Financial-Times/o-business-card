@@ -27,6 +27,6 @@
 
 @if (not $o-business-card-is-silent) {
 	@include oBusinessCardIncludeAll();
-	@include oFontsInclude(BentonSans, Normal);
-	@include oFontsInclude(BentonSans, Bold);
+	@include oFontsInclude(BentonSans, normal);
+	@include oFontsInclude(BentonSans, bold);
 }
