@@ -9,7 +9,6 @@
  * Style element like a business card
  */
 @mixin oBusinessCard {
-	font-family: oFontsGetFontFamilyWithFallbacks(BentonSans);
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 18px;

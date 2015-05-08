@@ -1,7 +1,8 @@
 {
 	"options": {
 		"sass": "demos/src/demo.scss",
-		"template": "demos/src/demo-img-right.mustache"
+		"template": "demos/src/demo-img-right.mustache",
+		"dependencies": ["o-fonts@^1.4.0"]
 	},
 	"demos": [
 		{
