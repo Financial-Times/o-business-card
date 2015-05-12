@@ -12,9 +12,6 @@ $o-business-card-is-silent: true !default;
 @import "src/scss/card";
 @import "src/scss/deprecated/card";
 
-
-@include oColorsSetUseCase(o-business-card, border, 'pink-tint2');
-
 /// Output business card helper classes
 ///
 /// @param {String} $classname [o-business-card]
