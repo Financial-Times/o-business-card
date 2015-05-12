@@ -1,6 +1,6 @@
 # o-business-card [![Build Status](https://travis-ci.org/Financial-Times/o-business-card.svg?branch=master)](https://travis-ci.org/Financial-Times/o-business-card)
 
-Render contact information about a FT employee (e.g. name, email, Twitter handle...).
+Render contact information about a FT employee (e.g. name, email, Twitter handle…).
 
 To render a business card, you just need to pass a JSON to the template with that person's details. Here's a list of all possible values (it can be extended):
 
@@ -51,8 +51,8 @@ In silent mode, instead of the CSS classes listed below, there will be Sass mixi
 Personalise border and background colours using these use cases:
 
 ```scss
-@include oColorsSetUseCase(o-business-card, border, a color name);
-@include oColorsSetUseCase(o-business-card, background, a color name);
+@include oColorsSetUseCase(o-business-card, border, 'a color name');
+@include oColorsSetUseCase(o-business-card, background, 'a color name');
 ```
 
 ## Markup
