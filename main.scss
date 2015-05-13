@@ -1,7 +1,20 @@
-@import "src/scss/variables";
+////
+/// @group o-business-card
+/// @link http://registry.origami.ft.com/components/o-business-card
+////
+
+/// Silent mode
+/// @type Bool
+$o-business-card-is-silent: true !default;
+
+@import "o-colors/main";
+@import "src/scss/color-use-cases";
 @import "src/scss/card";
 @import "src/scss/deprecated/card";
 
+/// Output business card helper classes
+///
+/// @param {String} $classname [o-business-card]
 @mixin oBusinessCardIncludeAll($classname: o-business-card) {
 	.#{$classname} {
 		@include oBusinessCard;
@@ -26,4 +39,7 @@
 
 @if (not $o-business-card-is-silent) {
 	@include oBusinessCardIncludeAll();
+
+	// Restore silent mode to avoid double output
+	$o-business-card-is-silent: true;
 }

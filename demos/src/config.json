@@ -2,7 +2,7 @@
 	"options": {
 		"sass": "demos/src/demo.scss",
 		"template": "demos/src/demo-img-right.mustache",
-		"dependencies": ["o-fonts@^1.4.0"]
+		"dependencies": ["o-fonts@^1.5.0"]
 	},
 	"demos": [
 		{
