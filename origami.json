@@ -5,23 +5,33 @@
 	"support": "https://github.com/Financial-Times/o-business-card/issues",
 	"supportStatus": "active",
 	"ci": {
-		"travis": "https://api.travis-ci.org/repos/Financial-Times/o-business-card/builds.json"
+		"circle": "https://circleci.com/api/v1/project/Financial-Times/o-business-card"
+	},
+	"options": {
+		"sass": "demos/src/demo.scss",
+		"dependencies": ["o-fonts@^1.5.0"]
 	},
 	"demos": [
-		{   
-			"path": "/demos/full-card.html",
+		{
+			"name": "full-card",
+			"template": "/demos/src/demo-img-right.mustache",
 			"expanded": true,
-			"description": ""
+			"description": "",
+			"data": "demos/src/data3.json"
 		},
 		{
-			"path": "/demos/bio-card.html",
+			"name": "bio-card",
+			"template": "/demos/src/demo-img-left.mustache",
 			"expanded": false,
-			"description": ""
+			"description": "",
+			"data": "demos/src/data1.json"
 		},
 		{
-			"path": "/demos/links-card.html",
+			"name": "links-card",
+			"template": "/demos/src/demo-img-right.mustache",
 			"expanded": false,
-			"description": ""
+			"description": "",
+			"data": "demos/src/data2.json"
 		}
 	]
 }
