@@ -1,4 +1,4 @@
-# o-business-card [![Build Status](https://travis-ci.org/Financial-Times/o-business-card.svg?branch=master)](https://travis-ci.org/Financial-Times/o-business-card)
+# o-business-card [![Build Status](https://circleci.com/gh/Financial-Times/o-business-card.png?style=shield&circle-token=bc53c44662985eeb9cef04fbc4ec95a2598ab81c)](https://circleci.com/gh/Financial-Times/o-business-card)
 
 Render contact information about a FT employee (e.g. name, email, Twitter handle…).
 
@@ -20,7 +20,7 @@ The image can either be floated left or right depending on the modifier of the c
 
 ## Structured data
 
-Every business card will be using structured data using schema.org, a collaboration by Google, Microsoft and Yahoo. This will help search engines understand each person's details better. We're using microdata to structure the data. 
+Every business card will be using structured data using schema.org, a collaboration by Google, Microsoft and Yahoo. This will help search engines understand each person's details better. We're using microdata to structure the data.
 
 Each o-business-card component will be an `itemscope` that gets its `itemtype` from [http://schema.org/Person](http://schema.org/Person). And then each element has its corresponding `itemprop`, except for "age":
 
