@@ -7,7 +7,7 @@
 	"ci": {
 		"circle": "https://circleci.com/api/v1/project/Financial-Times/o-business-card"
 	},
-	"options": {
+	"demosDefaults": {
 		"sass": "demos/src/demo.scss",
 		"dependencies": ["o-fonts@^1.5.0"]
 	},
