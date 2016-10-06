@@ -1,5 +1,7 @@
 # o-business-card [![Build Status](https://circleci.com/gh/Financial-Times/o-business-card.png?style=shield&circle-token=bc53c44662985eeb9cef04fbc4ec95a2598ab81c)](https://circleci.com/gh/Financial-Times/o-business-card)
 
+**This module has been deprecated**
+
 Render contact information about a FT employee (e.g. name, email, Twitter handle…).
 
 To render a business card, you just need to pass a JSON to the template with that person's details. Here's a list of all possible values (it can be extended):
